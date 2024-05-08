@@ -5,7 +5,7 @@ import './App.css'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import './index.css';
-
+import Movielist from './Components/Movielist'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +15,8 @@ function App() {
 
     <Header />
     <Footer />
+    <Movielist />
+   
     
     </>
   )
